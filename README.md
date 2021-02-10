@@ -1,2 +1,2 @@
-# spectrum
+# Spectrum
 Chat Application
