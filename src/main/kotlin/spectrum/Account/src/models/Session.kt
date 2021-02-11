@@ -1,6 +1,7 @@
 public class Session {
-    var name: String,
-    var password: String
+    var name: String = ""
+    var password: String = ""
+    var id: Int = 0
 
     // hashes the password and saves it in session
     fun StoreHashedPassowrd(password:String): Boolean {
