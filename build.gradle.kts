@@ -11,6 +11,9 @@ plugins {
     // Apply the application plugin to add support for building a CLI application.
     application
 }
+// current jbcrypt_version is 0.4
+compile group: 'org.mindrot', name: 'jbcrypt', version: jbcrypt_version
+
 
 repositories {
     // Use jcenter for resolving dependencies.
@@ -36,7 +39,7 @@ dependencies {
 
 }
 
-}
+
 
 application {
     // Define the main class for the application.

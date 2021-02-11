@@ -1,3 +1,5 @@
+import org.mindrot.jbcrypt.BCrypt
+
 public class Session {
     var name: String,
     var password: String
@@ -6,6 +8,11 @@ public class Session {
     fun StoreHashedPassowrd(password:String): Boolean {
 
     }
+
+    fun encryptPassword(session: Session) {
+        user.passwordHash = BCrypt.hashpw(password, BCrypt.gensalt())
+    }
+
 
     // verifies if the password is correct
     fun VerifyPassword(password: String): Boolean{

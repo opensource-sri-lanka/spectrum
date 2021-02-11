@@ -1,4 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="spectrum" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="WEB_MODULE" version="4">
-  <component name="Go" enabled="true" />
-</module>
+<module type="JAVA_MODULE" version="4" />
