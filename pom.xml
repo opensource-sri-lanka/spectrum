@@ -1,0 +1,5 @@
+<dependency>
+    <groupId>at.favre.lib</groupId>
+    <artifactId>bcrypt</artifactId>
+    <version>{latest-version}</version>
+</dependency>
