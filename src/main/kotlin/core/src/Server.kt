@@ -1,4 +1,10 @@
-public class Server {
+class Server(uconfig: ServerConfig) {
+    var config
+
+    init {
+        config = uconfig
+    }
+
     fun hello(args: Array<String>) {
         print("Hello what's your good name? ")
 
