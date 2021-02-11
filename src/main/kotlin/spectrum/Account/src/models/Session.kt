@@ -11,6 +11,7 @@ public class Session {
         return true
     }
 
+    // Encrypt password
     fun encryptPassword(session: Session) {
         user.passwordHash = BCrypt.hashpw(password, BCrypt.gensalt())
     }
