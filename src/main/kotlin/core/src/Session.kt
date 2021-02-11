@@ -24,7 +24,7 @@ public class Session {
     }
 }
 
-public class SessionStore {
+class SessionStore {
     var sessions: MutableList<Session> = emptyList()
 
     // returns a session depending on the username
@@ -47,5 +47,7 @@ public class SessionStore {
         return null
     }
 
-    fun Add
+    fun add(s: Session) {
+        sessions.add(s)
+    }
 }
