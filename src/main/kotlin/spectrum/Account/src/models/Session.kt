@@ -20,7 +20,7 @@ public class SessionStore {
     // returns a session depending on the username
     fun FindSession(name:String): Session {
         for (i in sessions) {
-            if i.name == name {
+            if (i.name == name) {
                 return i
             }
         }
