@@ -11,7 +11,7 @@ public class Session {
         return true
     }
 
-    // Encrypt password
+    // Encrypt password - Dinuda
     fun encryptPassword(session: Session) {
         user.passwordHash = BCrypt.hashpw(password, BCrypt.gensalt())
     }
