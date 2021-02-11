@@ -1,3 +1,5 @@
+package main.kotlin.core.src
+
 // Imports
 import org.mindrot.jbcrypt.BCrypt
 import java.util.Collections.emptyList
