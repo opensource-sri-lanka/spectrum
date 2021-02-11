@@ -1,3 +1,6 @@
+
+func main
+
 public class Server {
     fun hello(args: Array<String>) {
         print("Hello what's your good name? ")
@@ -7,6 +10,4 @@ public class Server {
                 "1) Create new Chat Session (1)" +
                 "2) Join existing Chat Session (2)")
     }
-
-    func
 }
