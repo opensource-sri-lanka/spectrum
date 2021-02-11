@@ -15,7 +15,7 @@ class SocketInstance : Application() {
         try {
             // creating socket instance
             mSocket = IO.socket(URL)
-        } catch (e: java.net.URISyntaxException) {
+        } catch (e: URISyntaxException) {
             throw RuntimeException(e)
         }
     }
