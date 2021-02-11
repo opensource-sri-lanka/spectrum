@@ -1,3 +1,0 @@
-class SessionStore {
-    var Sessions
-}
