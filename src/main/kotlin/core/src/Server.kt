@@ -1,4 +1,4 @@
-package core.src
+package main.kotlin.core.src
 
 import com.github.nkzawa.socketio.client.IO
 import com.github.nkzawa.socketio.client.Socket

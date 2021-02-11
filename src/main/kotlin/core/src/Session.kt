@@ -1,8 +1,10 @@
+package main.kotlin.core.src
+
 // Imports
 import org.mindrot.jbcrypt.BCrypt
 import java.util.Collections.emptyList
 
-public class Session {
+class Session {
     var name: String = ""
     var password: String = ""
     var id: Int = 0
