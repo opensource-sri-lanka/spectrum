@@ -20,4 +20,9 @@ class SocketInstance : Application() {
         }
     }
 
+    // return socket instance
+    fun getMSocket(): Socket? {
+        return mSocket
+    }
+
 }
