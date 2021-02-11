@@ -5,12 +5,12 @@ public class Session {
 
     // hashes the password and saves it in session
     fun StoreHashedPassowrd(password:String): Boolean {
-
+        return true
     }
 
     // verifies if the password is correct
     fun VerifyPassword(password: String): Boolean{
-
+        return true
     }
 }
 
