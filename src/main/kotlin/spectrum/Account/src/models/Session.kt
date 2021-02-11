@@ -26,4 +26,14 @@ public class SessionStore {
         }
         return null
     }
+
+    // returns a session depending on the id
+    fun FindSession(id:Int): Session {
+        for (i in sessions) {
+            if (i.id == id) {
+                return i
+            }
+        }
+        return null
+    }
 }
