@@ -18,7 +18,7 @@ public class SessionStore {
     var sessions: List<Session>
 
     // returns a session depending on the username
-    fun FindSession(name:String): Session {
+    fun FindSession(name:String): Session? {
         for (i in sessions) {
             if (i.name == name) {
                 return i
