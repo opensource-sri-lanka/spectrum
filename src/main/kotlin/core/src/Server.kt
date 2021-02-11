@@ -1,21 +1,7 @@
-class Server(uconfig: ServerConfig) {
-    var config
+package core.src
 
-    init {
-        config = uconfig
-    }
+import com.github.nkzawa.socketio.client.IO
+import com.github.nkzawa.socketio.client.Socket
+import java.net.URISyntaxException
 
-    fun hello(args: Array<String>) {
-        print("Hello what's your good name? ")
-
-        val enteredString = readLine()
-        printLn("What would you like to do today $enteredString:" +
-                "1) Create new Chat Session (1)" +
-                "2) Join existing Chat Session (2)")
-    }
-
-
-
-
-
-}
+private cons
