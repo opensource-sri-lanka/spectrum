@@ -30,6 +30,12 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+
+    // Use the socket.io standard library
+    implementation("com.github.nkzawa:socket.io-client:0.6.0")
+
+}
+
 }
 
 application {
