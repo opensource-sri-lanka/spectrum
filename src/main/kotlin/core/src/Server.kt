@@ -25,4 +25,16 @@ class SocketInstance : Application() {
         return mSocket
     }
 
+    // Emit and listen events
+    mSocket?.on("EVENT_NAME") { args ->
+        if (args[0] != null)
+        {
+            data = args[0] as String
+            Log.d(“output”,data.toString())
+            runOnUiThread {
+                Toast.makeText(this,”Data received from socket”,Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
 }
