@@ -32,7 +32,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 
     // Use the socket.io standard library
-    implementation  (platform("com.github.kana:socket.io-client:0.6.0"))
+    implementation("com.github.nkzawa:socket.io-client:0.6.0")
 
 }
 
