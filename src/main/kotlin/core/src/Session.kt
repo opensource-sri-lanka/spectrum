@@ -1,5 +1,6 @@
 // Imports
 import org.mindrot.jbcrypt.BCrypt
+import java.util.Collections.emptyList
 
 public class Session {
     var name: String = ""
@@ -24,7 +25,7 @@ public class Session {
 }
 
 public class SessionStore {
-    var sessions: List<Session>
+    var sessions: MutableList<Session> = emptyList()
 
     // returns a session depending on the username
     fun FindSession(name:String): Session? {
@@ -45,4 +46,6 @@ public class SessionStore {
         }
         return null
     }
+
+    fun Add
 }
