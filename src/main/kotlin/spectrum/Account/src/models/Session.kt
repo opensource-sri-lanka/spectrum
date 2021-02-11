@@ -1,3 +1,4 @@
+// Imports
 import org.mindrot.jbcrypt.BCrypt
 
 public class Session {
